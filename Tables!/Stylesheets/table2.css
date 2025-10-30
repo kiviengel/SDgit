@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* Author: K.Engel */
+
+
+
+/* Reset & Patches */
+
+/* Schriftformate */
+h1 {
+    color: black;
+}
+/* Hauptelemente */
+table {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 10px;
+
+}
+
+th, td {
+    border-color: lightgray;
+}
+
+th {
+    background-color: lightgray;
+}
+
+caption {
+    color: gray;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* .tableContainer {
+    border: 1px dotted;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18em;
+}
+
+.center, h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Nebenelemente */
+
+/* Navigation */
+
+/* Kleinkram */

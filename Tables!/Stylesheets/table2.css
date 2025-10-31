@@ -54,19 +54,17 @@ img {
    width: 75%;
 }
 
-/* .tableContainer {
-    border: 1px dotted;
+.tableContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18em;
 }
 
 .center, h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-} */
+}
 
 /* Nebenelemente */
 

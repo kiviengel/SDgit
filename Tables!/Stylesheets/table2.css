@@ -7,29 +7,51 @@
 /* Reset & Patches */
 
 /* Schriftformate */
+* {
+   border-color: #a9a9a9;
+}
 h1 {
     color: black;
 }
 /* Hauptelemente */
 table {
-    text-align: center;
+    font-size: smaller;
+    text-align: left;
+    border-left: 7px solid;
+    border-color: #888888;
     font-family: sans-serif;
     margin: 10px;
-
+    border-spacing: 0;
 }
 
+/* tr {
+    background-color: lightgray;
+} */
+
 th, td {
-    border-color: lightgray;
+    padding: 10px 158px 10px 12px;
+    letter-spacing: 1px;
+
 }
 
 th {
-    background-color: lightgray;
+    background-color: #888888;
+    color: white;
 }
 
 caption {
-    color: gray;
-    font-size: larger;
-    font-weight: bold;
+    color: #8d8d8d;
+    border-left: 7px solid;
+    border-color: #888888;
+    text-align: left;
+    font-size: x-large;
+    font-weight: lighter;
+    margin: 0px 0px 12px 0px;
+    padding-left: 6px;
+}
+
+img {
+   width: 75%;
 }
 
 /* .tableContainer {

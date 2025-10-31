@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* Author: K.Engel */
+
+
+
+/* Reset & Patches */
+
+/* Schriftformate */
+
+/* Hauptelemente */
+h1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+s
+.list {
+    display: flex;
+}
+/* Nebenelemente */
+
+/* Navigation */
+
+/* Kleinkram */

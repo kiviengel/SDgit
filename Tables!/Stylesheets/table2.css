@@ -29,14 +29,15 @@ table {
 } */
 
 th, td {
-    padding: 10px 158px 10px 12px;
-    letter-spacing: 1px;
+    padding: 10px 201px 10px 12px;
+
 
 }
 
 th {
     background-color: #888888;
     color: white;
+ letter-spacing: 1px;
 }
 
 caption {
@@ -46,7 +47,7 @@ caption {
     text-align: left;
     font-size: x-large;
     font-weight: lighter;
-    margin: 0px 0px 12px 0px;
+    margin-bottom: 12px;
     padding-left: 6px;
 }
 

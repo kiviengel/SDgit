@@ -2,13 +2,11 @@
 
 /* Author: K.Engel */
 
-
-
 /* Reset & Patches */
 
 /* Schriftformate */
 * {
-   border-color: #a9a9a9;
+    border-color: #a9a9a9;
 }
 h1 {
     color: black;
@@ -28,16 +26,15 @@ table {
     background-color: lightgray;
 } */
 
-th, td {
+th,
+td {
     padding: 10px 201px 10px 12px;
-
-
 }
 
 th {
     background-color: #888888;
     color: white;
- letter-spacing: 1px;
+    letter-spacing: 1px;
 }
 
 caption {
@@ -52,7 +49,7 @@ caption {
 }
 
 img {
-   width: 75%;
+    width: 75%;
 }
 
 .tableContainer {
@@ -61,7 +58,8 @@ img {
     align-items: center;
 }
 
-.center, h1 {
+.center,
+h1 {
     display: flex;
     justify-content: center;
     align-items: center;

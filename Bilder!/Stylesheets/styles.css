@@ -21,7 +21,8 @@ body {
 }
 
 img {
-    size: 70%;
+  max-width: 80%;
+  height: auto;
 }
 /* Nebenelemente */
 

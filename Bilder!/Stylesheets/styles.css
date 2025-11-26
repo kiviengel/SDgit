@@ -21,8 +21,10 @@ body {
 }
 
 img {
-  max-width: 80%;
-  height: auto;
+    position: absolute;
+    max-width: 80%;
+    height: auto;
+    top: 20%;
 }
 /* Nebenelemente */
 

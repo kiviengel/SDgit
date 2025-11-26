@@ -16,7 +16,13 @@
 /* Schriftformate */
 
 /* Hauptelemente */
+body {
+    background-image: url(../Medien/Patternsamelses.jpg)
+}
 
+img {
+    size: 70%;
+}
 /* Nebenelemente */
 
 /* Navigation */

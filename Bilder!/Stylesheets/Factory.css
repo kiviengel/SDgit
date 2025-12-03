@@ -16,9 +16,16 @@
 /* Schriftformate */
 
 /* Hauptelemente */
-section {
+body {
     background-image: url(../Medien/industrial.jpg);
-    background-size: contain;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    position: absolute;
+    height: auto;
+    top: 12000vh;
 }
 
 img {

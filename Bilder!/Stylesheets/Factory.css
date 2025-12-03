@@ -16,10 +16,9 @@
 /* Schriftformate */
 
 /* Hauptelemente */
-body {
-    background-image: url(../Medien/Patternsamelses.jpg);
+section {
+    background-image: url(../Medien/industrial.jpg);
     background-size: contain;
-    background-attachment: fixed;
 }
 
 img {

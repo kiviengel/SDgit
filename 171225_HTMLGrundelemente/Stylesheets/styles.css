@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* Author: K.Engel */
+
+
+
+/* Reset & Patches */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Schriftformate */
+h1 {
+    font-size: 2.5em;
+    font-family: Helvetica, Arial, 'sans-serif';
+    color: #ccc;
+}
+/* Hauptelemente */
+
+.wrapper {
+    max-width: 1500px;
+    background-color: red;
+    margin: 2em auto 5em auto;
+}
+
+header {
+    background-color: aqua;
+}
+
+footer {
+    background-color: forestgreen;
+}
+
+article {
+ background-color: yellow
+}
+/* Nebenelemente */
+
+/* Navigation */
+
+/* Kleinkram */

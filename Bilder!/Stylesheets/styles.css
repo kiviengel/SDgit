@@ -23,9 +23,15 @@ body {
 }
 
 img {
-    max-width: 80%;
+    max-width: inherit;
 }
-div {
+
+.B {
+    max-width: 80%;
+
+}
+
+.A {
     position: absolute;
     height: auto;
     top: 14vh;

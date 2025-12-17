@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+/* Author: K.Engel */
+
+
+
+/* Reset & Patches */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+/* Schriftformate */
+
+/* Hauptelemente */
+body {
+    background: url(../Medien/Febbles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.scale {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Bilder {
+    max-width: 1000px;
+    height:auto;
+    padding: 0em 2em 0em 2em;
+    margin: auto 2em auto 2em;
+
+    background-color: #160d22;
+}
+
+.L {
+      border: 4px solid transparent;
+    border-image: url(../Medien/grad.png) 5 ;
+    padding: 1em;
+    background-color: #160d22;
+}
+
+.R {
+      border: 4px solid transparent;
+    border-image: url(../Medien/grad2.png) 5 ;
+    padding: 1em;
+    background-color: #160d22;
+}
+
+p {
+    color: white;
+}
+
+.FP {
+    color: #7dd3c7;
+}
+
+
+.SRS {
+    color: #d06060;
+}
+
+.BSM {
+    color: #dca745;
+}
+
+.pad {
+    padding-bottom: 1em;
+}
+
+/* Nebenelemente */
+
+/* Navigation */
+
+/* Kleinkram */

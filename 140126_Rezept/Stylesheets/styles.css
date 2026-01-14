@@ -13,22 +13,30 @@
 
 /* Schriftformate */
 
+p, h1, h2, h3, li{
+	color: #b8c8e8;
+}
+
+h2, p, table, nav {
+	font-family: "Ubuntu";
+}
+
 h1 {
 	font-size: 500%;
-	color: #b8c8e8;
 	font-family: "Baumans", system-ui;
 	font-weight: 400;
 	font-style: normal;
 }
 
 h2 {
-	color: #b8c8e8;
 	font-size: 225%;
 	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
 }
 
-li {
-		color: #b8c8e8;
+.Baumans {
+	font-family: "Baumans", system-ui;
 }
 
 /* Hauptelemente */
@@ -62,7 +70,52 @@ header {
 }
 
 article {
+	display: flex;
 	padding: 2em;
+}
+
+.left {
+	margin-right: 3em;
+}
+
+table {
+	padding: 0.25em;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+td {
+	background-color: #cfceea;
+	padding: 0.7em;
+}
+
+th {
+	background-color: #9b9abb;
+	padding: 0.7em;
+}
+
+img { /* temp */
+	margin: 2em;
+	height: 50%;
+	align-self: center;
+}
+
+.infotable {
+	display: flex;
+}
+
+.right {
+	flex-grow: 1;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	padding: 2em;
+	background-color: #524a21;
 }
 
 /* Nebenelemente */
@@ -71,7 +124,26 @@ article {
 
 /* Kleinkram */
 
-.flex {
+.half {
+	size: 50%;
+}
+
+.flex{
 	display: flex;
+}
+
+.dark {
+	background-color: #88999d;
+}
+
+.column {
+	flex-direction: column
+}
+
+.fend {
+	align-self: flex-end;
+}
+
+.jcc {
 	justify-content: center;
 }

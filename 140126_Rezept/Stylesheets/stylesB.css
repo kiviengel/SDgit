@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/* Author: K.Engel */
+
+/* Reset & Patches */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+/* Schriftformate */
+
+p, h1, h2, h3, li{
+	color: #b8c8e8;
+}
+
+p, table, nav, li {
+	font-family: "Ubuntu";
+}
+
+h1, h2 {
+	font-size: 500%;
+	font-family: "Baumans", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 225%;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.4em;
+}
+
+li {
+	font-size: 150%;
+	padding-bottom: 1em;
+}
+
+.Baumans {
+	font-family: "Baumans", system-ui;
+}
+
+/* Hauptelemente */
+
+body {
+	background-color: #1f2327;
+}
+
+.wrapper {
+	max-width: 1500px;
+	background-color: #451f1f;
+	margin: 2em auto 5em auto;
+}
+
+header {
+	background-color: #3b451f;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	background-color: #304040;
+	font-size: 125%;
+}
+
+.navitm {
+	flex-grow: 1;
+
+}
+
+article {
+	display: flex;
+	padding: 2em;
+}
+
+.left {
+	margin-right: 3em;
+	max-width: 50%;
+}
+
+table {
+	padding: 0.25em;
+	margin-right: 1em;
+	border-spacing: 0;
+}
+
+td {
+	background-color: #cfceea;
+	padding: 0.7em;
+}
+
+th {
+	background-color: #9b9abb;
+	padding: 0.7em;
+}
+
+.infotable {
+	display: flex;
+}
+
+.right {
+	flex-grow: 1;
+}
+
+img { /* temp */
+	margin: 2em;
+	height: 50%;
+	align-self: center;
+}
+
+.image {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	padding: 2em;
+	background-color: #524a21;
+}
+
+/* Nebenelemente */
+
+/* Navigation */
+
+/* Kleinkram */
+
+.half {
+	size: 50%;
+}
+
+.flex{
+	display: flex;
+}
+
+.dark {
+	background-color: #88999d;
+}
+
+.column {
+	flex-direction: column
+}
+
+.fend {
+	align-self: flex-end;
+}
+
+.jcc {
+	justify-content: center;
+}

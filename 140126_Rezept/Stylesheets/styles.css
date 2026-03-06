@@ -115,13 +115,13 @@ footer {
 	display: flex;
 }
 
-.bgbgbg  {
+.lheader  {
 	background-color: #60c71f;
 	color: #ffffff;
 	padding: 0.5em;
 }
 
-.lheader {
+.bgbgbg {
 	background-color: #67c72b;
 	color: #ffffff;
 	padding: 0.5em;

@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* Author: K.Engel */
+
+/* Reset & Patches */
+
+/* Schriftformate */
+* {
+    border-color: #a9a9a9;
+}
+h1 {
+    color: black;
+}
+/* Hauptelemente */
+table {
+    font-size: smaller;
+    text-align: left;
+    border-left: 7px solid;
+    border-color: #888888;
+    font-family: sans-serif;
+    margin: 10px;
+    border-spacing: 0;
+}
+
+/* tr {
+    background-color: lightgray;
+} */
+
+th,
+td {
+    padding: 10px 201px 10px 12px;
+}
+
+tr:nth-child(odd) {
+	background-color: #e7e7e7;
+}
+
+th {
+    background-color: #888888;
+    color: white;
+    letter-spacing: 1px;
+}
+
+caption {
+    color: #8d8d8d;
+    border-left: 7px solid;
+    border-color: #888888;
+    text-align: left;
+    font-size: x-large;
+    font-weight: lighter;
+    margin-bottom: 12px;
+    padding-left: 6px;
+}
+
+img {
+    width: 75%;
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center,
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Nebenelemente */
+
+/* Navigation */
+
+/* Kleinkram */
